@@ -3,12 +3,12 @@
 #include<ESP8266WiFi.h>
 #include<FirebaseArduino.h>
 #include "UbidotsMicroESP8266.h"
-#define UBTOKEN "BBFF-FoZI7yhMUQVjqv8ApwfqMgBUvAyBuO"
-Ubidots client(UBTOKEN);
-#define FIREBASE_HOST "airmonapp.firebaseio.com"
-#define FIREBASE_AUTH "hQ5MvC54UNK3UVNr940KqBzhFAwWGV6Tp7seW5Bu"
-#define WIFI_SSID "JioFi4_06601F"
-#define WIFI_PASSWORD "ze0mmp5ic9"
+#define TOKEN "UBIDOTS_TOKEN"
+Ubidots client(TOKEN);
+#define FIREBASE_HOST "FIREBASE_URL_HERE"
+#define FIREBASE_AUTH "SECRET_SERVER_KEY"
+#define WIFI_SSID "NAME_OF_WIFI_TO_CONNECT_NODEMCU"
+#define WIFI_PASSWORD "WIFI_PASSWORD"
  
 float hum;
 float temp;
