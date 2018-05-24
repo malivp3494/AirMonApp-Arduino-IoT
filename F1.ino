@@ -2,7 +2,7 @@
 #include<FirebaseArduino.h>
 #include "UbidotsMicroESP8266.h"
 
-#define TOKEN "BBFF-FoZI7yhMUQVjqv8ApwfqMgBUvAyBuO"
+#define TOKEN "UBIDOTS_TOKEN"
 Ubidots client(TOKEN);
 #define FIREBASE_HOST "FIREBASE_URL_HERE"
 #define FIREBASE_AUTH "SECRET_SERVER_KEY"
